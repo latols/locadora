@@ -22,8 +22,8 @@ public class ClienteController {
     }
 
     @PostMapping("/clientes")
-    public Cliente cadastrarCliente(@Valid @RequestBody Cliente cliente) {
-        return clienteRepository.save(cliente);
+    public void cadastrarCliente(@Valid @RequestBody Cliente cliente) {
+        clienteRepository.cadastrarCliente(cliente.getNome(), cliente.getUltimoNome(), cliente.getEmail());
     }
 
 }

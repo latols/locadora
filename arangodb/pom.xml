@@ -11,7 +11,7 @@
 	<groupId>com.uerj</groupId>
 	<artifactId>arangodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<nome>arangodb</nome>
+	<name>arangodb</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
